@@ -1,11 +1,12 @@
-package ZahidMHW2;
+
 import java.util.*;
 
-public class ZahidMHW2 {
+public class Recursion {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
-
+        
+        System.out.println("This is the run from calling countUppercase()");
         System.out.print("Enter a string: ");
         String x = input.nextLine();
         System.out.println("The upper letters in " + x + " is " + countUppercase(x));
