@@ -1,31 +1,11 @@
 package ZahidMHW2;
 import java.util.*;
-/**
- *
- * My words and actions will reflect Academic Integrity I will not cheat or lie
- * or steal in academic matters I will promote integrity in the UNCG community
- * Muhammad Zahid 02/8/22
- */
-
-/**
- * ZahidMHW2
- * Muhammad Zahid
- * CSC 230, Sec 03
- */
 
 public class ZahidMHW2 {
     public static void main(String[] args) {
-        System.out.println("ZahidMHW2" + "\nMuhammad Zahid" + "\nCSC 230, Sec 03");
-        System.out.println();
-        System.out.println("This program creates a recursive method called countUppercase() to return"
-                + "\n the number of uppercase letters in a string"
-                + "\nA second method uses a recursive method and a helper method."
-                + "\nThe method is called count() and it returns the number of uppercase letters in an array of"
-                + "\n characters.");
-        System.out.println();
+        
         Scanner input = new Scanner(System.in);
 
-        System.out.println("This is the run from calling countUppercase()");
         System.out.print("Enter a string: ");
         String x = input.nextLine();
         System.out.println("The upper letters in " + x + " is " + countUppercase(x));
